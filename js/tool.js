@@ -2,7 +2,7 @@
 (function () {
   document.documentElement.style.fontSize = document.documentElement.clientWidth / 640 * 100 + 'px';
 }())
-
+//添加header
 (function () {
   let con = `
   <div class="logo">
