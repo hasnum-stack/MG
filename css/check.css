@@ -1,9 +1,55 @@
-body{
+body {
   background: #fff;
 }
-.wrapper{
-  width:1200px;
-  margin:0 auto;
-  border:1px solid red;
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  border: 1px solid red;
   box-sizing: border-box;
 }
+
+header .logo {
+  width: 171px;
+}
+
+header .logo img {
+  width: 100%;
+}
+
+header .head_title {
+  font-size: 28px;
+  color: #777777;
+}
+
+section .sec_titel {
+  font-size: 35px;
+  color: #777777;
+}
+
+section .input_wrap {
+  width: 1037px;
+}
+
+section .state_wrap {
+  color: #7E7E7E;
+  font-size: 26px;
+}
+
+section .state_result {
+  ;
+  display: flex;
+  align-items: center;
+
+}
+
+section .state_result img {
+  width: 52px;
+}
+
+section .state_title {}
+
+/* .state_result img{
+  vertical-align: middle;
+  width: 52px;
+} */

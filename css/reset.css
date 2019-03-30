@@ -199,7 +199,6 @@ a {
   outline: none;
 }
 
-/*a:active {star:expression_r(this.onFocus=this.blur());}*/
 :focus {
   outline: 0;
 }
@@ -207,7 +206,6 @@ a {
 i {
   font-style: normal;
 }
-
 
 body {
   background-image: radial-gradient(52% 146%, #00060F 47%, #000000 100%);
@@ -238,4 +236,12 @@ body {
 
 .f26 {
   font-size: 0.26rem;
+}
+.m-a{
+  margin:0 auto;
+}
+
+/* 文档居中 */
+.t-a {
+  text-align: center;
 }
