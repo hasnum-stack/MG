@@ -172,21 +172,21 @@ input:-webkit-autofill {
 
 @font-face {
   font-family: "w3";
-  src: url('./font/Hiragino\ Sans\ GB\ W3.otf');
+  src: url('../font/Hiragino Sans GB W3.otf');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "w6";
-  src: url('./font/Hiragino\ Sans\ GB\ W6.otf');
+  src: url('../font/Hiragino Sans GB W6.otf');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "UB";
-  src: url('./font/MStiffHeiPRC-UltraBold.OTF');
+  src: url('../font/MStiffHeiPRC-UltraBold.OTF');
   font-weight: normal;
   font-style: normal;
 }

@@ -1,0 +1,17 @@
+.tittle {
+  background-image: url('../images/t_MG.svg')
+}
+
+section {
+  margin-top: 1.88rem;
+  box-sizing: border-box;
+}
+
+section .banner_wrap .img_wrap{
+  width: 100%;
+  height: 3.77rem;
+}
+
+.img_wrap img {
+  width: 100%;
+}
