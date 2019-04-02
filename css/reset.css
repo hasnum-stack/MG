@@ -230,12 +230,18 @@ body {
 }
 
 /* 字号 */
+.f38 {
+  font-size: 0.38rem;
+}
 .f32 {
   font-size: 0.32rem;
 }
 
 .f26 {
   font-size: 0.26rem;
+}
+.f20{
+  font-size: 0.20rem;
 }
 .m-a{
   margin:0 auto;

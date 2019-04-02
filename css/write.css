@@ -1,11 +1,25 @@
-.tittle{
-  background-image: url('../images/t_write.svg')
+.title img {
+  width: 0.51rem;
+  height: 0.55rem;
 }
+
+section {
+  margin-bottom: 1.8rem;
+}
+
 section ul {
   height: 6.31rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
   flex-flow: row wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -ms-flex-line-pack: distribute;
   align-content: space-around;
 }
 
@@ -35,13 +49,4 @@ section ul li select {
 
 select option {
   background: #00060f;
-}
-
-.next {
-  height: 0.635rem;
-  background: url('../images/button.svg') no-repeat center center;
-  background-size: 2.83rem 0.635rem;
-  text-align: center;
-  line-height: 0.635rem;
-  margin-top: 1.8rem;
 }
