@@ -1,0 +1,134 @@
+/*
+@supports (bottom: env(safe-area-inset-bottom)) {
+  .footer_wrap {
+    margin-bottom: env(safe-area-inset-bottom);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+  }
+}
+*/
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .footer_wrap {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+  }
+
+  section {
+    margin-top: 1.2rem !important;
+  }
+}
+
+.title img {
+  width: 0.63rem;
+  height: 0.63rem;
+}
+
+section {
+  margin-top: 0.23rem;
+}
+
+.navbtn {
+  position: relative;
+  width: 5.94rem;
+  height: 7.8rem;
+  background: url("../images/mapbg.jpg") no-repeat;
+  background-size: 100%;
+  margin: 0 auto;
+}
+
+section .navbtn>p {
+  width: 1.23rem;
+  height: 1.51rem;
+  position: absolute;
+  padding-top: 0.5rem;
+  text-align: center;
+  color: #F7F7F7;
+  font-size: 0.2rem;
+  background: no-repeat center center;
+  background-size: 100%;
+  box-sizing: border-box;
+}
+
+section .navbtn>p:nth-child(1) {
+  background-image: url('../images/map/grey.svg');
+  left: 0.97rem;
+  top: 5.1rem;
+}
+
+section .navbtn>p:nth-child(2) {
+  background-image: url('../images/map/red.svg');
+  left: 4.65rem;
+  top: 2.1rem;
+}
+
+section .navbtn>p:nth-child(3) {
+  background-image: url('../images/map/red.svg');
+  left: 3.62rem;
+  top: 3.89rem;
+}
+
+section .navbtn>p:nth-child(4) {
+  background-image: url('../images/map/red.svg');
+  left: 4.17rem;
+  top: 4.72rem;
+}
+
+section .navbtn>p:nth-child(5) {
+  background-image: url('../images/map/red.svg');
+  left: 4.73rem;
+  top: 5.51rem;
+}
+
+.footer_wrap {
+  margin-top: 0.34rem;
+  width: 100%;
+  text-align: center;
+}
+
+.footer_wrap ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  -webkit-box-align: top;
+  -ms-flex-align: top;
+  align-items: baseline;
+}
+
+.footer_wrap ul li {
+  font-size: 0.15rem;
+  line-height: 1.5;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 18%;
+  background: url('../images/map/line.svg') no-repeat right center;
+  background-size: 100% 100%;
+}
+
+.footer_wrap ul li:nth-child(1) img {
+  width: 0.75rem;
+  height: 0.3rem;
+}
+
+.footer_wrap ul li:nth-child(2) img {
+  width: 0.45rem;
+  height: 0.486rem;
+}
+
+.footer_wrap ul li:nth-child(3) img {
+  width: 0.49rem;
+  height: 0.49rem;
+}
+
+.footer_wrap ul li:nth-child(4) img {
+  width: 0.56rem;
+  height: 0.37rem;
+}
+
+.footer_wrap ul li:nth-child(5) img {
+  width: 0.45rem;
+  height: 0.45rem;
+}

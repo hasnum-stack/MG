@@ -4,16 +4,15 @@
 }
 
 section {
-  padding: 0 0.44rem;
+  padding: 0 0.2rem;
 }
 
 section .flexshow {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   border: 0.03rem solid #FFFCFC;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -30,6 +29,7 @@ section .flexshow {
 .share_start {
   padding-left: 1.02rem;
   height: 1.44rem;
+  align-items: center;
 }
 
 .share_start p {
@@ -62,14 +62,12 @@ section .img_wrap img {
   width: 100%;
 }
 
-section .teacher_mes {
-  text-align: right;
-}
 
 section .teacher_mes li {
   color: #B5B5B5;
-  line-height: 1.8;
+  line-height: 1.7;
 }
+
 
 section .teacher_mes li:nth-child(1) {
   font-size: 0.28rem;
@@ -77,16 +75,11 @@ section .teacher_mes li:nth-child(1) {
 }
 
 section .teacher_mes li:nth-child(2) {
-  font-size: 0.23rem;
-  color: #f4f4f4;
-}
-
-section .teacher_mes li:nth-child(3) {
-  font-size: 0.17rem;
-  font-family: 'w3'
-}
-
-section .teacher_mes li:nth-child(4) {
   font-size: 0.15rem;
-  font-family: 'w3'
+  font-family: 'w3';
+  text-align: right;
+}
+
+section .rg li {
+  text-align: left !important;
 }

@@ -1,0 +1,71 @@
+body {
+  background: url('../images/indexbgx.jpg') no-repeat;
+  background-size: cover;
+}
+
+.wrtie_wrap {
+  color: #fff;
+}
+
+section {
+  text-align: center;
+  font-family: '黑体';
+}
+
+section .logo_wrap {
+  margin: 0.2rem auto .8rem 0.53rem;
+  width: 2.02rem;
+}
+
+section .logo_wrap img {
+  width: 100%;
+}
+
+section .key_wrap {
+  width: 100%;
+  margin-bottom: 0.6rem;
+}
+
+section .key_wrap img {
+  width: 100%;
+}
+
+.wel {
+  font-size: 0.38rem;
+  text-shadow: 0.03rem 0.03rem 0 rgba(185, 28, 35, 1);
+}
+
+.mes,
+.eng {
+  text-shadow: 0.03rem 0.03rem 0 rgba(0, 0, 0, 1);
+}
+
+.mes {
+  letter-spacing: 0.1rem;
+  font-size: 0.22rem;
+  margin-bottom: 0.12rem
+}
+
+.eng {
+  font-size: 0.14rem;
+}
+
+.eng i {
+  font-size: 0.08rem;
+}
+
+.next {
+  height: 0.52rem;
+  line-height: 0.52rem;
+  background-size: 1.43rem 0.52rem;
+  font-size: 0.20rem;
+  text-shadow: 0 0 0.17rem rgba(255, 255, 255, 0.92);
+  margin: .2rem;
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  body {
+    background: url('../images/indexbgx.jpg') no-repeat;
+    background-size: 100% 100vh;
+  }
+}

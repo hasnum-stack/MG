@@ -1,0 +1,57 @@
+.title img {
+  width: 0.63rem;
+  height: 0.63rem;
+}
+
+section {
+  padding: 0.84rem 0.49rem 0 0.62rem;
+}
+
+section .con {
+  margin-bottom: 0.82rem;
+}
+
+section .con .img_wrap {
+  margin: 0.82rem auto 0.17rem auto;
+  width: 5.29rem;
+}
+
+section .con .img_wrap img {
+  width: 100%;
+}
+
+section .game_title {
+  font-size: 0.32rem;
+  text-align: center;
+  color: #f4f4f4;
+}
+
+section .game_mes {
+  font-family: "w3";
+  font-size: 0.2rem;
+  color: #b5b5b5;
+  line-height: 1.8;
+}
+
+.flex_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.flex_wrap div {
+  width: 1.72rem;
+  text-align: center;
+  line-height: 2;
+  margin-bottom: 0.49rem;
+  font-size:0.16rem;
+  color:#fff;
+}
+
+.flex_wrap div img {
+  width: 100%;
+}

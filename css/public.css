@@ -5,12 +5,17 @@
 
 .logo {
   height: 0.83rem;
-  background: url('../images/logo.svg') no-repeat center center;
+  background: url('../images/logo.png') no-repeat center center;
   background-size: 0.73rem 0.73rem;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding-left: 0.37rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .back {
@@ -28,9 +33,15 @@
   background:  no-repeat 1.72rem center;
   background-size: 0.51rem 0.55rem;
   margin-top: 0.17rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .title span {

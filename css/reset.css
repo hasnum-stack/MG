@@ -186,9 +186,9 @@ input:-webkit-autofill {
 
 @font-face {
   font-family: "UB";
-  src: url('../font/MStiffHeiPRC-UltraBold.OTF');
-  font-weight: normal;
-  font-style: normal;
+  src: url('../font/MStiffHeiHK-UltraBold.otf');
+  /* font-weight: normal;
+  font-style: normal; */
 }
 
 a:focus {
@@ -250,4 +250,10 @@ body {
 /* 文档居中 */
 .t-a {
   text-align: center;
+}
+.t-l {
+  text-align: left;
+}
+.t-r {
+  text-align: right;
 }

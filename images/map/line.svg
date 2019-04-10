@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="3px" height="93px" viewBox="0 0 3 93" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>pg2_line_red</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="99.5671453%" id="linearGradient-1">
+            <stop stop-color="#F60000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#E90000" offset="54.2071368%"></stop>
+            <stop stop-color="#7D0000" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="H5页面设计" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.798758371" stroke-linecap="round">
+        <g id="主菜单+平面规划图" transform="translate(-131.000000, -1017.000000)" stroke="url(#linearGradient-1)" stroke-width="2">
+            <g id="主菜单按钮边框" transform="translate(119.000000, 988.000000)">
+                <path d="M13.5,29.6485628 L13.5,121.826774" id="Path-19"></path>
+            </g>
+        </g>
+    </g>
+</svg>
