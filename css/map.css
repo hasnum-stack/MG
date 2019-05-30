@@ -15,7 +15,6 @@
     left: 0;
     bottom: 0;
   }
-
   section {
     margin-top: 1.2rem !important;
   }
@@ -32,15 +31,15 @@ section {
 
 .navbtn {
   position: relative;
-  width: 5.94rem;
-  height: 7.8rem;
-  background: url("../images/mapbg.jpg") no-repeat;
+  width: 6.4rem;
+  height: 8.69rem;
+  background: url("../images/mapbg.png") no-repeat;
   background-size: 100%;
   margin: 0 auto;
 }
 
 section .navbtn>p {
-  width: 1.23rem;
+  width: .8rem;
   height: 1.51rem;
   position: absolute;
   padding-top: 0.5rem;
@@ -49,41 +48,44 @@ section .navbtn>p {
   font-size: 0.2rem;
   background: no-repeat center center;
   background-size: 100%;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 section .navbtn>p:nth-child(1) {
-  background-image: url('../images/map/grey.svg');
-  left: 0.97rem;
-  top: 5.1rem;
+  background-image: url('../images/map/grey.png');
+  left: 1.4rem;
+  top: 5.9rem;
 }
 
 section .navbtn>p:nth-child(2) {
-  background-image: url('../images/map/red.svg');
-  left: 4.65rem;
-  top: 2.1rem;
+  background-image: url('../images/map/red.png');
+  left: 5.5rem;
+  top: 2.7rem;
 }
 
 section .navbtn>p:nth-child(3) {
-  background-image: url('../images/map/red.svg');
-  left: 3.62rem;
-  top: 3.89rem;
+  background-image: url('../images/map/red.png');
+  left: 4.3rem;
+  top: 4.89rem;
 }
 
 section .navbtn>p:nth-child(4) {
-  background-image: url('../images/map/red.svg');
-  left: 4.17rem;
-  top: 4.72rem;
+  background-image: url('../images/map/red.png');
+  left: 5.1rem;
+  top: 5.5rem;
 }
 
 section .navbtn>p:nth-child(5) {
-  background-image: url('../images/map/red.svg');
-  left: 4.73rem;
-  top: 5.51rem;
+  background-image: url('../images/map/red.png');
+  left: 5.43rem;
+  top: 6.4rem;
 }
 
 .footer_wrap {
-  margin-top: 0.34rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
   width: 100%;
   text-align: center;
 }
@@ -92,7 +94,8 @@ section .navbtn>p:nth-child(5) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: top;
   -ms-flex-align: top;
   align-items: baseline;
@@ -104,8 +107,12 @@ section .navbtn>p:nth-child(5) {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 18%;
-  background: url('../images/map/line.svg') no-repeat right center;
-  background-size: 100% 100%;
+  background: url('../images/map/redline.png') no-repeat right center;
+  background-size: .02rem .7rem;
+}
+
+.footer_wrap ul li:last-child {
+  background: none;
 }
 
 .footer_wrap ul li:nth-child(1) img {

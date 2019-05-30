@@ -3,6 +3,15 @@
   height: 0.63rem;
 }
 
+.title {
+  margin-top: 1.2rem;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+}
+
 section {
   padding: 0 0.2rem;
 }
@@ -29,7 +38,9 @@ section .flexshow {
 .share_start {
   padding-left: 1.02rem;
   height: 1.44rem;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .share_start p {
@@ -78,6 +89,11 @@ section .teacher_mes li:nth-child(2) {
   font-size: 0.15rem;
   font-family: 'w3';
   text-align: right;
+
+}
+
+section .teacher_list div:nth-of-type(3) {
+  width: 100%;
 }
 
 section .rg li {

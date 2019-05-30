@@ -34,7 +34,6 @@ function cathedraTime() {
         data = $(this).parent('.cathedra_time').siblings('.cathedra_data').text();
         teacherName = $(this).children('.name').text();
         itemName = $(this).parents('.con').children('.cathedra_name').text();
-        console.log(time)
         userChoose = `
         您已选择:${itemName}-${teacherName} ${data} ${time}
         `

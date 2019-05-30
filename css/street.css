@@ -2,7 +2,13 @@
   width: 0.63rem;
   height: 0.63rem;
 }
-
+.title{
+  margin-top: 1.2rem;
+}
+header{
+  position: fixed;
+  width: 100%;
+}
 section {
   padding: 0.84rem 0.49rem 0 0.62rem;
 }

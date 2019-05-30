@@ -10,12 +10,11 @@ body {
 }
 
 section {
-  margin-top: 1.88rem;
+  margin-top: .26rem;
 }
 
 section .banner_wrap .swiper-container {
   width: 100%;
-  /* height: 2.71rem; */
 }
 
 section .banner_wrap .swiper-container img {
@@ -29,7 +28,7 @@ section .swiper-button {
   border-radius: 0.06rem;
   padding: 0.3rem 0.2rem;
   background-size: 50%;
-  top: 40%;
+  /* top: 40%; */
 }
 
 section .swiper-button-prev {
@@ -65,4 +64,11 @@ section .swiper-button-next {
 
 .down_wrap img {
   width: 100%;
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  
+  section {
+    margin-top: 1.2rem ;
+  }
 }

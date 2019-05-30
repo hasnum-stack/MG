@@ -46,7 +46,8 @@ select,
 textarea {
   /* for ie */
   /*font: 12px/1 Tahoma, Helvetica, Arial, "宋体", sans-serif;*/
-  font: 12px/1 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;
+  /* font: 12px/1 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif; */
+  font: 12px/1 normal;
   /* 用 ascii 字符表示，使得在任何编码下都无问题 */
 }
 
@@ -167,6 +168,7 @@ hr {
 
 /* chrome input自动填充黄色背景 */
 input:-webkit-autofill {
+  box-shadow: 0 0 0px 1000px white inset;
   -webkit-box-shadow: 0 0 0px 1000px white inset;
 }
 
@@ -233,6 +235,7 @@ body {
 .f38 {
   font-size: 0.38rem;
 }
+
 .f32 {
   font-size: 0.32rem;
 }
@@ -240,20 +243,24 @@ body {
 .f26 {
   font-size: 0.26rem;
 }
-.f20{
+
+.f20 {
   font-size: 0.20rem;
 }
-.m-a{
-  margin:0 auto;
+
+.m-a {
+  margin: 0 auto;
 }
 
 /* 文档居中 */
 .t-a {
   text-align: center;
 }
+
 .t-l {
   text-align: left;
 }
+
 .t-r {
   text-align: right;
 }

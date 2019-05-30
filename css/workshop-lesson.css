@@ -5,7 +5,6 @@
 
 section {
   padding: 0 0.2rem;
-
 }
 
 section .flexshow {
@@ -62,22 +61,39 @@ section .rg li {
 }
 
 section .more_t li {
-  /* width: 5rem; */
   margin: .2rem auto;
   border: 1px solid #B5B5B5;
   font-size: 0.15rem;
   color: #B5B5B5;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0.1rem 0.1rem;
   border-radius: 0.05rem;
 
 }
 
-.disblo{
-   display: block !important;
+.disblo {
+  display: block !important;
 }
 
-.next{
+.next {
   margin: .8rem 0;
+}
+
+.bor p {
+  padding: 0.06rem 0.1rem;
+  margin: .2rem 0;
+  border: 1px solid #B5B5B5;
+  border-radius: 0.08rem;
+}
+
+.bord_time {
+  margin: .2rem 0;
+  padding: .3rem 0.2rem;
+  border: 1px solid #B5B5B5;
+  border-radius: 0.08rem;
 }

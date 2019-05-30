@@ -1,5 +1,5 @@
 body {
-  background: url('../images/indexbgx.jpg') no-repeat;
+  background: url('../images/index/indexbg.png') no-repeat;
   background-size: cover;
 }
 
@@ -42,12 +42,14 @@ section .key_wrap img {
 
 .mes {
   letter-spacing: 0.1rem;
-  font-size: 0.22rem;
-  margin-bottom: 0.12rem
+  font-size: 0.20rem;
+  margin-bottom: 0.12rem;
+  text-align: right;
 }
 
 .eng {
   font-size: 0.14rem;
+  text-align: right;
 }
 
 .eng i {
@@ -55,17 +57,22 @@ section .key_wrap img {
 }
 
 .next {
+  margin: .2rem 0 .8rem 0;
   height: 0.52rem;
   line-height: 0.52rem;
+  background: url('../images/index/btn.png') no-repeat center center;
   background-size: 1.43rem 0.52rem;
   font-size: 0.20rem;
   text-shadow: 0 0 0.17rem rgba(255, 255, 255, 0.92);
-  margin: .2rem;
+ 
 }
 
+/*
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
-  body {
+   body {
     background: url('../images/indexbgx.jpg') no-repeat;
     background-size: 100% 100vh;
-  }
+  } 
 }
+
+*/
